@@ -73,31 +73,30 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:text="Result :"
         android:textAlignment="viewStart"
         android:textSize="20sp"
         android:textStyle="bold"
         android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/listView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/filterBtn" />
 
-    <ListView
+    <TextView
         android:id="@+id/listView"
-        android:layout_width="267dp"
-        android:layout_height="136dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="24dp"
-        android:textAlignment="viewStart"
-        android:visibility="invisible"
+        android:layout_width="353dp"
+        android:layout_height="157dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="50dp"
+        android:lines="3"
+        android:textColor="#8F8D8D"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultCount"
-        app:layout_constraintVertical_bias="0.555" />
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
